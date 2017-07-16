@@ -1,0 +1,21 @@
+{
+    "name": "trask/bike-oop",
+    "description": "bike oop project",
+    "type": "project",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bike\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bike\\Tests\\": "tests/"
+        }
+    }
+}
